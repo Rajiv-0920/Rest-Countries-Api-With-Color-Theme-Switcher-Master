@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="detailpage.js" defer></script>
+    <title>Rest Countries Api With Color Theme Switcher Master</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <h1 class="title">Where in the world?</h1>
+        <div class="mode" id="mode">
+          <i class="fa-regular fa-moon"></i>
+          <p>Dark Mode</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="details">
+        <button id="back" class="btn exit">
+          <i class="fa-solid fa-arrow-left"></i> Back
+        </button>
+        <div class="flag-details">
+          <img
+            src="https://flagcdn.com/zm.svg"
+            class="flag-img item"
+            alt="flag img"
+          />
+          <div class="country-details item">
+            <h2 id="name" class="country-name lg"></h2>
+            <div class="other-details">
+              <div>
+                <p>Native Name: <span id="native-name"></span></p>
+                <p>Population: <span id="population"></span></p>
+                <p>Region: <span id="region"></span></p>
+                <p>Sub Region: <span id="subregion"></span></p>
+                <p>Capital: <span id="capital"></span></p>
+              </div>
+              <div>
+                <p>Top Level Domain: <span id="topLevelDomain"></span></p>
+                <p>Currencies: <span id="currencies"></span></p>
+                <p>Languages: <span id="languages"></span></p>
+              </div>
+            </div>
+            <div class="border-countries">
+              <p>Border Countries:</p>
+              <div class="border-country">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

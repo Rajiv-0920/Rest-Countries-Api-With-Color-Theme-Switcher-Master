@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Rest Countries Api With Color Theme Switcher Master</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <h1 class="title">Where in the world?</h1>
+        <div class="mode" id="mode">
+          <i class="fa-regular fa-moon"></i>
+          <p>Dark Mode</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="filter-container container">
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input
+            type="text"
+            autocomplete="off"
+            class="search"
+            placeholder="Search for a country..."
+            id="search"
+          />
+        </div>
+        <div class="filter">
+          <div class="filter-btn">
+            <p class="filter-text">Filter by Region</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <ul class="drop-down">
+            <li class="filter-type drop-down-item active" id="all">All</li>
+            <li class="filter-type drop-down-item" id="africa">Africa</li>
+            <li class="filter-type drop-down-item" id="americas">Americas</li>
+            <li class="filter-type drop-down-item" id="asia">Asia</li>
+            <li class="filter-type drop-down-item" id="europe">Europe</li>
+            <li class="filter-type drop-down-item" id="oceania">Oceania</li>
+          </ul>
+        </div>
+      </section>
+      <section class="all-country container">
+        <!--<div class="country">
+           <img
+            src="https://flagcdn.com/in.svg"
+            alt="Country Image"
+            class="country-img"
+            loading="lazy"
+          />
+          <div class="country-details no-margin">
+            <h2 class="country-name">India</h2>
+            <p class="country-population">
+              <span>Population:</span> 1,380,004,385
+            </p>
+            <p class="country-region"><span>Region:</span> Asia</p>
+            <p class="country-capital"><span>Capital:</span> New Delhi</p>
+          </div> 
+        </div>-->
+      </section>
+    </main>
+  </body>
+</html>
