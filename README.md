@@ -2,6 +2,8 @@
 
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
+Live demo link:- https://Rajiv-0920.github.io/Rest-Countries-Api-With-Color-Theme-Switcher-Master/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
